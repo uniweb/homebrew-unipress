@@ -7,7 +7,7 @@ class Unipress < Formula
   on_macos do
     on_arm do
       url "https://github.com/uniweb/unipress/releases/download/unipress@#{version}/unipress-darwin-arm64"
-      sha256 "c2faa424b3dfd56029b33bc8709a5e0cb76bb9ac6b7d218a25bb4abb29c3efb4"
+      sha256 "d44b83d0142130dc45cf1b7a70896fb9644a0cd83f27bfa7953ce7e36a8eade7"
     end
   end
 
