@@ -1,20 +1,20 @@
 class Unipress < Formula
   desc "Compile markdown into PDF, EPUB, DOCX, XLSX, or Typst via a Uniweb foundation"
   homepage "https://github.com/uniweb/unipress"
-  version "0.4.19"
+  version "0.4.21"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/uniweb/unipress/releases/download/v#{version}/unipress-darwin-arm64"
-      sha256 "df12276a07eeb84f889ae3164c17aeee3671e09ab5d1e91bbb7fae7b99a7232c"
+      sha256 "90f40b9ff7b22ec24bdcbfe5eced3996a30001bd61ccdb44c666b838d96a28bd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/uniweb/unipress/releases/download/v#{version}/unipress-linux-x64"
-      sha256 "6eb2deb9355d27f8d69358973ff4143a80e7ba76fbc62f4bf182c119084b689c"
+      sha256 "7a5d8f974b4608da8b6524d1ac12bdc5efb5d09e9a31a372a40030c22c1208ea"
     end
   end
 
